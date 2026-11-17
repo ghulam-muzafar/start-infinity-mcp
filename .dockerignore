@@ -1,0 +1,8 @@
+# Allow only build inputs. In particular, never send .env or host artifacts.
+**
+!Dockerfile
+!.dockerignore
+!Cargo.toml
+!Cargo.lock
+!src/
+!src/**
